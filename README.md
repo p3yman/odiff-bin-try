@@ -25,3 +25,7 @@ npm run compare-node // to run with nodejs environment
 ```
 
 You can check the result in the `diff` folder.
+
+|               First image (before)               |              Second image (after)               |                   Diff                   |
+| :----------------------------------------------: | :---------------------------------------------: | :--------------------------------------: |
+| ![Before](screenshots/instagram-profile-old.png) | ![After](screenshots/instagram-profile-new.png) | ![Diff](diff/instagram-profile-diff.png) |
