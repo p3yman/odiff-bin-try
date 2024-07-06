@@ -1,0 +1,15 @@
+{
+  "name": "odiff-bin-try",
+  "version": "1.0.0",
+  "description": "Try odiff-bin package for image comparison",
+  "main": "index.js",
+  "scripts": {
+    "compare": "odiff ./screenshots/instagram-profile-old.png ./screenshots/instagram-profile-new.png ./diff/instagram-profile-diff.png",
+    "compare-node": "node ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "odiff-bin": "^3.0.1"
+  }
+}
